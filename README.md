@@ -1,5 +1,6 @@
 # ASCIImg
 > .NET Text to ASCII Library
+[![NuGet](https://img.shields.io/nuget/vpre/Cya.ASCIImg)]
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#how-to-use">How To Use</a> •
