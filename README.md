@@ -22,5 +22,8 @@ Pre-releases available via NuGet
 ASCIImg will provide support for web/file-based image conversion to ASCII text for use in C# .NET console applications.
 
 ### Completed Features
+Basic ASCII C# Support | In Progress
+HTML/RTF Support | Not Started
+
 ### Status
 ### Contact
