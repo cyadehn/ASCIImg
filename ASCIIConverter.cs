@@ -13,8 +13,6 @@ namespace ASCIImg
     {
         //Pseudocode from https://www.c-sharpcorner.com/article/generating-ascii-art-from-an-image-using-C-Sharp/
         private static string[] _AsciiChars = { "#", "@", "$", "&", "%", "=","+", "*", ":", "-", ".", " " };
-        public static string[] _fullSpectrum = { "$", "@", "B", "%", "8", "&", "W", "M", "#", "*", "o", "a", "h", "k", "b", "d", "p", "q", "w", "m", "Z", "O", "0", "Q", "L", "C", "J", "U", "Y", "X", "z", "c", "v", "u", "n", "x", "r", "j", "f", "t", "/", @"\", "|", "(", ")", "1", "{", "}", "[", "]", "?", "-", "_", "+", "~", "<", ">", "i", "!", "l", "I", ";", ":", ",", @"\", "”", "^", @"\", "`", @"\", @"’", ".", " "};
-        public static string[] _medSpectrum = { "#", "$", "@", "%", "8", "&", "*", "|", "?", "-", "_", "+", "~", "!", ";", ":", ",", "”", "^", "`", @"’", ".", " "};
         private static string CallingDirectory => new System.Uri(Assembly.GetCallingAssembly().Location).AbsolutePath.Split("/bin")[0];
         private static string OutputPath = Path.Combine(ASCIIConverter.CallingDirectory,"output/medOutput.txt");
         private static string txtPath  => Path.Combine(ASCIIConverter.CallingDirectory,"images/132.png");
